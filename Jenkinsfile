@@ -7,9 +7,9 @@ pipeline {
                 echo 'My Name is Rahul!...'
             }
         }
-        stage('World!') {
+        stage('b2 stage') {
             steps {
-                echo 'My Name is World!...'
+                echo 'this is b2 branch build!...'
             }
         }
         
